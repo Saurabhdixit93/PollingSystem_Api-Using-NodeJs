@@ -1,0 +1,38 @@
+{
+  "name": "pollingsystem-api",
+  "version": "1.0.0",
+  "description": "API where anyone can create questions with options and also add votes to it",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+  ,
+  "keywords": [
+    "Poling",
+    "System",
+    "Api",
+    "NodeJs",
+    "Api",
+    "cors"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saurabhdixit93/PollingSystem_Api-Using-NodeJs.git"
+  },
+  "author": "Saurabh Dixit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saurabhdixit93"
+  },
+  "homepage": "hhttps://github.com/Saurabhdixit93/PollingSystem_Api-Using-NodeJs#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.9",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.1",
+    "mongoose": "^6.0.6"
+  }
+}
